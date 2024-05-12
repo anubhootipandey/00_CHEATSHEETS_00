@@ -1,0 +1,32 @@
+/***************************
+  
+  ------------Background -----------
+  
+  As the name suggests, these properties are related to background, i.e., you can change the color,
+  image, position, size, etc., of the document.
+  
+  *******************************/
+  
+  /* Applies to all tags with id 'wrapper' ex: <div id="wrapper"></div> */
+  #wrapper {
+    /* Background */
+    background: color image repeat attachment position;
+    
+    /* Background-Image */
+    background-image: url("Path");
+  
+    /* Background-Position */
+    background-position: right top;
+  
+    /* Background-Size */
+    background-size: cover;
+  
+    /* Background-Color */
+    background-color: fuchsia;
+
+    /* Background-Repeat */
+    background-repeat: no-repeat;
+  
+    /* Background-Attachment */
+    background-attachment: scroll;
+  }
