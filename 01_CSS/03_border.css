@@ -1,0 +1,25 @@
+ /***************************Border ***********
+
+  Border properties are used to change the style, radius, color, etc., of buttons or other items of
+  the document.
+  
+  *******************************/
+  
+  /* You can also select multiple items */
+  div,
+  .container {
+     /* Border */
+     border: width style color;
+
+    /* Border-Width */
+    border-width: 5px;
+
+     /* Border-Radius */
+     border-radius: 15px;
+  
+    /* Border-Color */
+    border-color: aqua;
+
+    /* Border-Style */
+    border-style: solid;
+  }
