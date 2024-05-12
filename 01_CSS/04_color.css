@@ -1,0 +1,24 @@
+/***************************Colors
+  
+  With the help of the color property, one can give color to text, shape, or any other object.
+  
+  *******************************/
+  
+  p,
+  span,
+  .text {
+    /* Color - 1 */
+    color: cornsilk;
+
+    /* Color - 2 */
+    color: #fff8dc;
+
+    /* Color - 3 */
+    color: rgba(255, 248, 220, 1);
+
+    /* Color - 4 */
+    color: hsl(48, 100%, 93%);
+    
+    /* Opacity */
+    opacity: 1;
+  }
