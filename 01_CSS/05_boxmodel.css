@@ -1,0 +1,42 @@
+/***************************Box Model
+  
+  In laymen's terms, the CSS box model is a container that wraps around every HTML element. It
+  consists of margins, borders, padding, and the actual content.
+  It is used to create the design and layout of web pages.
+  
+  *******************************/
+  
+  .wrapper {
+    /* Float */
+    float: none;
+
+    /* Clear */
+    clear: both;/* used to clear floats on elements.*/
+
+    /* Height */
+    height: fit-content;
+
+    /* Width */
+    width: auto;
+
+    /* Display */
+    display: block;
+
+    /* Margin */
+    margin: top right bottom left;
+
+    /* Padding */
+    padding: top right bottom left;
+
+    /* Overflow */
+    overflow: hidden;
+
+    /* Visibility */
+    visibility: visible;
+
+    /* z-index */
+    z-index: 1;
+
+    /* position 
+    position: static | relative | fixed | absolute | sticky;*/
+  }
