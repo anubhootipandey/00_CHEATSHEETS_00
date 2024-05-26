@@ -1,0 +1,25 @@
+/***************************
+  
+  ------------Table -----------
+  
+  Table properties are used to give style to the tables in the document. You can change many
+  things like border spacing, table layout, caption, etc.
+  
+  *******************************/
+  
+  table {
+    /* Border-Collapse */
+    border-collapse: separate;
+  
+    /* Empty-Cells */
+    empty-cells: show;
+  
+    /* Border-Spacing */
+    border-spacing: 2px;
+  
+    /* Table-Layout */
+    table-layout: auto;
+  
+    /* Caption-Side */
+    caption-side: bottom;
+  }
