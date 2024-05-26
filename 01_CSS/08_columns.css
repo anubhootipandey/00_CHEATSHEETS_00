@@ -1,0 +1,30 @@
+
+  /***************************Columns
+  
+  These properties are used explicitly with columns of the tables, and they are used to give the
+  table an incredible look.
+  
+  *******************************/
+  table.div {
+    /* Column-Count */
+    column-count: 10;
+  
+    /* Column-Gap */
+    column-gap: 5px;
+  
+    /* Column-rule-width */
+    column-rule-width: medium;
+  
+    /* Column-rule-style */
+    column-rule-style: dotted;
+  
+    /* Column-rule-color */
+    column-rule-color: black;
+  
+    /* Column-width */
+    column-width: 10px;
+  
+    /* Column-span */
+    column-span: all;
+  }
+  
