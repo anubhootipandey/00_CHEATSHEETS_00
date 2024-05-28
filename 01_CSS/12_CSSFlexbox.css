@@ -1,0 +1,63 @@
+ /***************************CSS Flexbox (Important) ----------->
+  Flexbox is a layout of CSS that lets you format HTML easily. Flexbox makes it simple to align
+  items vertically and horizontally using rows and columns. Items will "flex" to different sizes to fill
+  the space. And overall, it makes the responsive design more manageable.
+  
+  *******************************/
+  
+  /* ---------------------- Parent Properties (flex container) ------------ */
+  
+  section,
+  div#wrapper {
+    /* display */
+    display: flex;
+  
+    /* flex-direction */
+    flex-direction: row | row-reverse | column | column-reverse;
+  
+    /* flex-wrap */
+    flex-wrap: nowrap | wrap | wrap-reverse;
+  
+    /* flex-flow */
+    flex-flow: column wrap;
+  
+    /* justify-content */
+    justify-content: flex-start | flex-end | center | space-between | space-around;
+  
+    /* align-items */
+    align-items: stretch | flex-start | flex-end | center | baseline;
+  
+    /* align-content */
+    align-content: flex-start | flex-end | center | space-between | space-around;
+  }
+  
+  
+  /* ---------------------- Child Properties (flex items) ------------ */
+  
+  p,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a {
+      /* order */
+      order: 5; /* default is 0 */
+  
+      /* flex-grow */
+      flex-grow: 4; /* default 0 */
+  
+      /* flex-shrink */
+      flex-shrink: 3; /* default 1 */
+  
+      /* flex-basis */
+      flex-basis: | auto; /* default auto */
+  
+      /* flex shorthand */
+      flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+  
+      /* align-self */
+      align-self: auto | flex-start | flex-end | center | baseline | stretch;
+  }
