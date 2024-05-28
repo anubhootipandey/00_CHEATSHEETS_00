@@ -1,0 +1,20 @@
+/***************************List & Markers-->
+  List and marker properties are used to customize lists in the document.
+
+  *******************************/
+  
+  li,
+  ul,
+  ol {
+    /* List-style-type */
+    list-style-type: square;
+  
+    /* List-style-position */
+    list-style-position: 20px;
+  
+    /* List-style-image */
+    list-style-image: url("image.gif");
+  
+    /* Marker-offset */
+    marker-offset: auto;
+  }
