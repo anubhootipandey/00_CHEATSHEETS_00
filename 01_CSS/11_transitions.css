@@ -1,0 +1,19 @@
+ /***************************Transitions ------>
+  Transitions let you define the transition between two states of an element.
+  
+  *******************************/
+  
+  a,
+  button {
+    /* Transition-property */
+    transition-property: none;
+  
+    /* Transition-duration */
+    transition-duration: 2s;
+  
+    /* Transition-timing-function */
+    transition-timing-function: ease-in-out;
+  
+    /* Transition-delay */
+    transition-delay: 20ms;
+  }
