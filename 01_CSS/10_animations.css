@@ -1,0 +1,32 @@
+/***************************Animations --->
+  CSS animations allow one to animate transitions or other media files on the web page.
+  
+  *******************************/
+  
+  svg,
+  .loader {
+    /* Animation-name */
+    animation-name: myanimation;
+  
+    /* Animation-duration */
+    animation-duration: 10s;
+  
+    /* Animation-timing-function */
+    animation-timing-function: ease;
+  
+    /* Animation-delay */
+    animation-delay: 5ms;
+  
+    /* Animation-iteration-count */
+    animation-iteration-count: 3;
+  
+    /* Animation-direction */
+    animation-direction: normal;
+  
+    /* Animation-play-state */
+    animation-play-state: running;
+  
+    /* Animation-fill-mode */
+    animation-fill-mode: both;
+  }
+  
