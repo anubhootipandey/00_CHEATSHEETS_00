@@ -1,0 +1,112 @@
+/***
+  Grid layout is a 2-Dimensional grid system to CSS that creates complex responsive web design
+  layouts more easily and consistently across browsers. **********/
+  
+  
+  /* ---------------------- Parent Properties (Grid container) ------------ */
+  
+  section,
+  div#wrapper {
+      /* display */
+      display: grid | inline-grid;
+  
+      /* grid-template-columns */
+      grid-template-columns: 12px 12px 12px;
+  
+      /* grid-template-rows */
+      grid-template-rows: 8px auto 12px;
+  
+      /* grid-template */
+      grid-template: none | <grid-template-rows> / <grid-template-columns>;
+  
+      /* column-gap */
+      column-gap: <line-size>;
+  
+      /* row-gap */
+      row-gap: <line-size>;
+  
+      /* grid-column-gap */
+      grid-column-gap: <line-size>;
+  
+      /* grid-row-gap */
+      grid-row-gap: <line-size>;
+  
+      /* gap shorthand */
+      gap: <grid-row-gap> <grid-column-gap>;
+  
+      /* grid-gap shorthand */
+      grid-gap: <grid-row-gap> <grid-column-gap>;
+  
+      /* justify-items */
+      justify-items: start | end | center | stretch;
+  
+      /* align-items */
+      align-items: start | end | center | stretch;
+  
+      /* place-items */
+      place-items: center;
+  
+      /* justify-content */
+      justify-content: start | end | center | stretch | space-around | space-between;
+  
+      /* align-content */
+      align-content: start | end | center | stretch | space-around | space-between;
+  
+      /* place-content */
+      place-content: <align-content> / <justify-content>;
+  
+      /* grid-auto-columns */
+      grid-auto-columns: <track-size> ...;
+  
+      /* grid-auto-rows */
+      grid-auto-rows: <track-size> ...;
+  
+      /* grid-auto-flow */
+      grid-auto-flow: row | column | row dense | column dense;
+  
+  }
+  
+  
+  /* ---------------------- Child Properties (Grid items) ------------ */
+  
+  p,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a {
+      /* grid-column-start */
+      grid-column-start: <number> | <name> | span <number> | span <name> | auto;
+  
+      /* grid-column-end */
+      grid-column-end: <number> | <name> | span <number> | span <name> | auto;
+  
+      /* grid-row-start */
+      grid-row-start: <number> | <name> | span <number> | span <name> | auto;
+  
+      /* grid-row-end */
+      grid-row-end: <number> | <name> | span <number> | span <name> | auto;
+  
+      /* grid-column shorthand */
+      grid-column: <start-line> / <end-line> | <start-line> / span <value>;
+  
+      /* grid-row shorthand */
+      grid-row: <start-line> / <end-line> | <start-line> / span <value>;
+  
+      /* grid-area */
+      grid-area: <name> | <row-start> / <column-start> / <row-end> / <column-end>;
+  
+      /* justify-self */
+      justify-self: start | end | center | stretch;
+  
+      /* align-self */
+      align-self: start | end | center | stretch;
+  
+      /* place-self */
+      place-self: center;
+  }
+  
+  
