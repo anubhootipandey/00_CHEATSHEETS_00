@@ -23,6 +23,8 @@
 // b = a;
 // console.log(a); //7
 
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
 // // 3.Operators
 //     // Adding Numbers--->
 //     var sum = 10 + 10;
@@ -52,6 +54,8 @@
 //     var decimal = 10.8;
 //     console.log(decimal);
 
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
 // // 4.Compound Assignment with Augmented Addition, Subtraction, Multiplication and Division---->
 //    var m = 2;
 //    m += 23;
@@ -60,6 +64,8 @@
 //    m /= 5;
 //    console.log(m);
 
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
 // // 5.Escaping Literal quotes in strings---->
 //    var myStr = "I am a \"double quoted\" string inside \"double quoted\""; //is a escaping literal used to diff. the end of the string.
 //    console.log(myStr);
@@ -67,6 +73,8 @@
 //    //Quoting Strings with Single Quotes---->
 //    var ourStr = 'I am a "double quoted" string inside "double quoted"';
 //    console.log(ourStr);
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
 
 // // 6.Escape Sequences in Strings---->
 //    /*
@@ -82,6 +90,8 @@
 //    var ranStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 //    console.log(ranStr);
 
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
 // // 7.Concatenating Strings with Plus Operator---->
 //    var randomStr = "This is the Start. " + "This is the Last. ";
 //    console.log(randomStr);
@@ -96,11 +106,15 @@
 //    var mYStr = "My name is " + mYName + " and I am well!";
 //    console.log(mYStr);
 
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
 // // 8.Find Length of String---->
 //    var firstNameLength = 0;
 //    var firstName = "Ada";
 //    firstNameLength = firstName.length;
 //    console.log(firstNameLength);
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
 
 // // 9.Bracket Notation to find first Character in string---->
 //    var firstLetterOfName = " ";
@@ -126,10 +140,14 @@
 //    var thirdToLastLetterOfFirstName = fnAme[fnAme.length - 3];
 //    console.log(thirdToLastLetterOfFirstName);
 
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
 // // 10.String Immutability--->
 //    var mYSt = "Jello World";
 //    mYSt = "Hello World";
 //    console.log(mYSt);
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
 
 // // 11.Word Blanks---->
 //    function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
@@ -138,6 +156,8 @@
 //     return result; 
 //    }
 //    console.log(wordBlanks("dog", "big", "ran", "quickly"));
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
 
 // 12.Array---->
 
@@ -160,6 +180,31 @@
    console.log(myRes);
 
    //Manipulate arrays with PUSH()---->
+   var fruits = ["apple", "orange", "banana"];
+   fruits.push("grapes", "berry");
+   console.log(fruits);
+
+   //Manipulate arrays with POP()---->
+   var colors = ["red", "orange", "blue", "black"];
+   colors.pop();
+   console.log(colors);
+
+   //Manipulate arrays with SHIFT()---->
+   var animals = ['tiger', 'lion', 'dog', 'cat', 'panther'];
+   animals.shift();
+   console.log(animals);
+
+   //Manipulate arrays with UNSHIFT()---->
+   var animal = ['tiger', 'lion', 'dog', 'cat'];
+   animal.unshift('panther');
+   console.log(animal);
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-   
+
+
+
+
+
+
